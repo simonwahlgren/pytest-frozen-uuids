@@ -1,0 +1,11 @@
+flake8
+flake8-black
+flake8-isort
+mypy
+pip-tools
+pytest-coverage
+pytest-icdiff
+pytest-sugar
+tox
+twine
+yamllint

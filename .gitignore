@@ -1,0 +1,17 @@
+*.egg-info
+*.lprof
+.cache
+.coverage
+.eggs
+.idea
+.mypy_cache
+.pyc
+.pytest_cache
+.tox
+.venv
+.vim
+.vscode
+__pycache__
+build
+coverage.xml
+dist
