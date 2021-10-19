@@ -1,7 +1,7 @@
 # pytest-frozen-uuids
 
 [![CI](https://github.com/simonwahlgren/pytest-frozen-uuids/actions/workflows/main.yaml/badge.svg)](https://github.com/simonwahlgren/pytest-frozen-uuids/actions/workflows/main.yaml)
-![image](https://img.shields.io/pypi/v/pytest-frozen-uuids.svg%0A%20:target:%20https://pypi.python.org/pypi/pytest-frozen-uuids/)
+[![PyPI version](https://badge.fury.io/py/pytest-frozen-uuids.svg)](https://badge.fury.io/py/pytest-frozen-uuids)
 
 Deterministically frozen UUID's for your tests.
 
