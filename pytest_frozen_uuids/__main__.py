@@ -3,8 +3,8 @@ from unittest.mock import patch
 
 import pytest
 
-from src import generators, utils
-from src.config import DefaultConfig
+from pytest_frozen_uuids import generators, utils
+from pytest_frozen_uuids.config import DefaultConfig
 
 MARKER_NAME = "freeze_uuids"
 FIXTURE_NAME = "freeze_uuids"

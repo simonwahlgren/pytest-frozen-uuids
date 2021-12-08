@@ -1,7 +1,10 @@
 setup:
 	@./scripts/setup.sh
 
-build:
+cleanup:
+	@./scripts/cleanup.sh
+
+build: cleanup
 	@./scripts/build.sh
 
 install: build
