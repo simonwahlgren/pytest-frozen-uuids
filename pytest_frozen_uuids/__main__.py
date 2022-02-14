@@ -80,7 +80,7 @@ def pytest_collection_modifyitems(items):
     """Inject our fixture into any tests with our marker"""
     for item in items:
         if utils.get_closest_marker(item, MARKER_NAME):
-            item.fixturenames.insert(0, FIXTURE_NAME)
+            item.fixturenames.insert(len(item.fixturenames), FIXTURE_NAME)
 
 
 def pytest_configure(config):
