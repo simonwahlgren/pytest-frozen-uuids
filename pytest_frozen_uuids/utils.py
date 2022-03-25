@@ -1,6 +1,6 @@
 import sys
-from packaging.version import Version
 from typing import Iterator, Optional
+from packaging.version import Version
 
 import pytest
 
