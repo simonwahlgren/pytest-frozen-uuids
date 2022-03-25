@@ -1,8 +1,8 @@
 import sys
 from typing import Iterator, Optional
-from packaging.version import Version
 
 import pytest
+from packaging.version import Version
 
 
 def get_closest_marker(node, name):
