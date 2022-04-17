@@ -1,13 +1,13 @@
 import sys
-from distutils.version import LooseVersion
 from typing import Iterator, Optional
 
 import pytest
+from packaging.version import Version
 
 
 def get_closest_marker(node, name):
     """Get our marker, regardless of pytest version"""
-    if LooseVersion(pytest.__version__) < LooseVersion("3.6.0"):
+    if Version(pytest.__version__) < Version("3.6.0"):
         return node.get_marker(name)
     else:
         return node.get_closest_marker(name)
